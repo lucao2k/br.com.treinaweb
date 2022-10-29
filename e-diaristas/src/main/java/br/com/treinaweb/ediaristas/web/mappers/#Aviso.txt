@@ -1,0 +1,8 @@
+    //Com esta implementacao do MapStruct que foi configurado no pom.xml
+    //Esta classe é gerada automaticamente no caminho
+    // Target/generated-sources/.../web/mappers
+    //Deixarei o WebServicoMapper.java como exemplo do método antigo.
+
+    Sempre que criar ou editar uma classe mapper, deve-se rodar o 'mvn clean' para limpar a 
+    pasta target e após rodar 'mvn package' para que seja criado/atualizado os mappers
+    através do MapStruct
